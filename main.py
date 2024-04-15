@@ -98,10 +98,15 @@ class MyForm(QDialog):
         for x in pasword:
             if x in self.capitalChars:
                 str += 10
+                break
+        for x in pasword:
             if x in self.numbers:
                 str += 15
+                break
+        for x in pasword:
             if x in self.specialChars:
                 str += 20
+                break
 
         if len(pasword) <= 5:
             str -= 30

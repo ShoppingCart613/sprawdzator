@@ -1,0 +1,13 @@
+Siła hasła działa na punktach które są dodawane za spełnione wymagania.
+Siła przeinacza się an procent (1 punkt to 1 procent).
+
+1. za złożoność:
+-duża litera daje 10
+-cyfra daje 15
+-znak specjalny daje 20
+
+2. za długość:
+-za mniej niż 5 znaków odejmuje 30
+-za więcej niż 5 znaków dodaje 4 co każdy znak
+
+Siła nie może przekroczyć 100 ani spaść poniżej 0.
